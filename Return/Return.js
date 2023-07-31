@@ -8,7 +8,7 @@ let arr=[
     {name: 'Truong5' ,age: 23},
 ];
 
-let filter=arr.filter((item,index)=>{
+let filter=arr.find((item,index)=>{
     return item && item.age>21;
 });
 console.log(filter)
